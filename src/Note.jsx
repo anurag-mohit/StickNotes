@@ -3,7 +3,7 @@ import React from "react";
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 const Note = (props) => {
     const deletenote = () => {
-        const x = window.confirm("Are You Sure Wish To delete this item")
+        const x = window.confirm("Are You Sure Wish To delete the item")
         if (x === true) { props.deletenote(props.id); }
     }
     return (<>
